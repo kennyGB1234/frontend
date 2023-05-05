@@ -1,0 +1,24 @@
+.fondo{
+  background-image: url(https://www.travelperk.com/wp-content/uploads/car-rental-companies-1-scaled.jpg);
+  background-size:cover;
+  height: 100vh;
+  opacity: 0.8;
+  margin: 10px;
+  margin-bottom: 140px;
+
+}
+
+.fondo{
+    position: relative;
+    height: 100vh;
+    
+  }
+  
+  .fondo::before {
+    background-image: url(https://www.travelperk.com/wp-content/uploads/car-rental-companies-1-scaled.jpg);
+    background-size:cover;
+    opacity: 0.45;
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+  }
