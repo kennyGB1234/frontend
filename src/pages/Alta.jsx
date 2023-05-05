@@ -15,7 +15,7 @@ const Alta = () => {
 
   const gestorFormulario = async (data) => {
     await axios
-      .post(process.env.REACT_APP_BACKEND_URL + "/api/usuarios", {
+      .post(process.env.REACT_APP_BACKEND_URL + "/usuarios", {
         nombre: data.nombre,
         email: data.email,
         password: data.password,
